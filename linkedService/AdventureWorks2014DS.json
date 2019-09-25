@@ -1,0 +1,17 @@
+{
+	"name": "AdventureWorks2014DS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=SSAS;initial catalog=AdventureWorksDW2014",
+			"userName": "ismail",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzOGFjMTllNC1jOWFjLTQ3NWEtOGJjMy1iMzM0MGE4MTNjYWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeTest",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
