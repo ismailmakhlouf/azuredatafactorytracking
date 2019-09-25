@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_9vs",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyDataFromSQLtoDataLake",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2019-09-25T16:18:00.000Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
