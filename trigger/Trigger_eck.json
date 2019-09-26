@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_eck",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyDataSQLtoADLS2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 12,
+				"startTime": "2019-09-26T07:06:00.000Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
