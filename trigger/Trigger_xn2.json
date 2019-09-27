@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_xn2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyFromSQLtoDW2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 12,
+				"startTime": "2019-09-27T15:56:00.000Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
